@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sysdig-image-analyzer
+data:
+  debug: "false"
+  access-key: ACCESSKEY
+  collector_endpoint: MYCOLLECTOR
+
+  # Set and customize the following to enable proxy support
+  # http_proxy: "http://proxy_server:8080"
+  # https_proxy: "https://proxy_server:8080"
+  # no_proxy: "127.0.0.1,localhost,192.168.0.0/16,172.16.0.0/12,10.0.0.0/8"
