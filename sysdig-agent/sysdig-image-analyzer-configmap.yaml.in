@@ -5,7 +5,7 @@ metadata:
 data:
   debug: "false"
   access-key: ACCESSKEY
-  collector_endpoint: MYCOLLECTOR
+  collector_endpoint: https://DOMAIN/internal/scanning/scanning-analysis-collector
 
   # Set and customize the following to enable proxy support
   # http_proxy: "http://proxy_server:8080"

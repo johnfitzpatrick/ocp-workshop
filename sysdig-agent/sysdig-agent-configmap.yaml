@@ -11,7 +11,7 @@ data:
     #### Sysdig Software related config ####
 
     # Sysdig collector address
-    # collector: 192.168.1.1
+    collector: COLLECTOR
 
     # Collector TCP port
     # collector_port: 6666
